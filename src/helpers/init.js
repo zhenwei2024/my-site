@@ -7,8 +7,8 @@ export function initializeParams(request, env) {
     globalThis.panelVersion = '2.7.8';
     globalThis.defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
     globalThis.defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
-    globalThis.userID = env.UUID;
-    globalThis.trojanPassword = env.TROJAN_PASS;
+    globalThis.userID = '20369c68-ebfa-49df-9eac-fc36b01c574c';
+    globalThis.trojanPassword = '9SY{*}7X}<ECB:Vi';
     globalThis.proxyIP = proxyIPs ? proxyIPs[Math.floor(Math.random() * proxyIPs.length)] : 'bpb.yousef.isegaro.com';
     globalThis.hostName = request.headers.get('Host');
     globalThis.pathName = url.pathname;
